@@ -1,4 +1,4 @@
-# revision 26689
+# revision 29764
 # category Package
 # catalog-ctan /biblio/bibtex/base
 # catalog-date 2011-12-28 13:17:09 +0100
@@ -6,7 +6,7 @@
 # catalog-version 0.99d
 Name:		texlive-bibtex
 Version:	0.99d
-Release:	3
+Release:	4
 Summary:	Process bibliographies for LaTeX, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/base
@@ -60,10 +60,10 @@ biblatex, if at all possible.
 %doc %{_texmfdistdir}/doc/bibtex/base/btxdoc.tex
 %doc %{_texmfdistdir}/doc/bibtex/base/btxhak.pdf
 %doc %{_texmfdistdir}/doc/bibtex/base/btxhak.tex
+%doc %{_mandir}/man1/bibtex.1*
+%doc %{_texmfdistdir}/doc/man/man1/bibtex.man1.pdf
 %doc %{_texmfdistdir}/tex/generic/bibtex/apalike.sty
 %doc %{_texmfdistdir}/tex/generic/bibtex/apalike.tex
-%doc %{_mandir}/man1/bibtex.1*
-%doc %{_texmfdir}/doc/man/man1/bibtex.man1.pdf
 
 #-----------------------------------------------------------------------
 %prep
@@ -73,25 +73,6 @@ biblatex, if at all possible.
 
 %install
 mkdir -p %{buildroot}%{_datadir}
-cp -fpar texmf texmf-dist %{buildroot}%{_datadir}
+cp -fpar texmf-dist %{buildroot}%{_datadir}
 mkdir -p %{buildroot}%{_mandir}/man1
-mv %{buildroot}%{_texmfdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.99d-3
-+ Revision: 812074
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.99d-2
-+ Revision: 749693
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.99d-1
-+ Revision: 717939
-- texlive-bibtex
-- texlive-bibtex
-- texlive-bibtex
-- texlive-bibtex
-- texlive-bibtex
-
+mv %{buildroot}%{_texmfdistdir}/doc/man/man1/*.1 %{buildroot}%{_mandir}/man1
