@@ -6,7 +6,7 @@
 # catalog-version 0.99d
 Name:		texlive-bibtex
 Version:	0.99d
-Release:	4
+Release:	5
 Summary:	Process bibliographies for LaTeX, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/base
