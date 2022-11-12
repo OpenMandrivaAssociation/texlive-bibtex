@@ -5,8 +5,8 @@ Summary:	Process bibliographies for LaTeX, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/base
 License:	KNUTH
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.r64491.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.doc.r64491.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
