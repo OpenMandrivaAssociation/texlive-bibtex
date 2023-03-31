@@ -1,6 +1,6 @@
 Name:		texlive-bibtex
 Version:	64491
-Release:	1
+Release:	2
 Summary:	Process bibliographies for LaTeX, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/biblio/bibtex/base
