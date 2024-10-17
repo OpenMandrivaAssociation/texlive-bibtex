@@ -3,7 +3,7 @@ Version:	70015
 Release:	1
 Summary:	Process bibliographies for LaTeX, etc
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/biblio/bibtex/base
+URL:		https://www.ctan.org/tex-archive/biblio/bibtex/base
 License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bibtex.doc.r%{version}.tar.xz
